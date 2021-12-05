@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Do We Give Privacy Yet?</title>
     <style>
         body {
             background-color: rgb(50, 45, 66);
-            color: rgb(247, 247, 247);
+            color: rgb(247, 247, 247) !important;
+
+            font-family: "Rubik", sans-serif;
+            font-size: 16px;
         }
         
         /* bootstrap source */
@@ -36,11 +42,74 @@
                 width: 1170px;
             }
         }
+
+        .space {
+            margin-bottom: 50px;
+        }
+
+        a {
+            color: whitesmoke;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <p style="text-align:center">Do We Give Privacy Yet?</p>        
+        <div style="text-align: center;">
+            <h2>Do We Give Privacy Yet?</h2>   
+            <small>a tracker made to see if FAANG companies give users their privacy</small>    
+            <p>❌ We don't!</p>
+        </div>
+            <p>The following companies are infringing on your's and million of other's privacy (and all over all pretty horrible): </p>
+            <ul style="list-style-type: none;">
+                <li><strong>Facebook / Meta</strong>: 
+                    <ul style="list-style-type: square;">
+                        <li>
+                            Has been exposed many times for being a data mine, especially with their subsidiaries. You can even review their own <a href="https://www.facebook.com/policy.php">privacy notice</a> to see how much data they collect on you, however we all know it's much bigger than that.
+                        </li>
+                        <li>
+                            WhatsApp has been exposed to be transferring user's messages to the FBI, which they describe to "see in real-time"
+                        </li>
+                        <li>
+                            WhatsApp has hundreds of contract employees, who review flagged messages, however it is unknown how due to WhatsApp being marketed as having end-to-end encryption.
+                        </li>
+                        <li>
+                            Known to sell users' personal data to third parties
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li><strong>Amazon</strong>: 
+                    <ul style="list-style-type: square;">
+                        <li>
+                            Holds the literal record for the biggest GDPR fine a company has faced, which was <strong>746 million euro ($888 million) </strong>
+                        </li>
+                        <li>
+                            Hold many ethical issues in their data collection and employee treatment
+                        </li>
+                        <li>
+                            Spies on their own employees
+                        </li>
+                        <li>
+                            Collects a shit ton of data (ie. your name; address; phone number; location information; email of friends and others; voice recordings of Alexa; credit history information; wifi credentials; corporate and financial information), however they describe it as the information you hand over to them. <a href="Screenshot_28.png">The automatic data collection however is pretty generic for any FAANG company, but nonetheless is pretty interesting</a>
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li><strong>Google</strong>: 
+                    <ul style="list-style-type: square;">
+                        <li>
+                            Google collects your search history, even if you're in Incognito mode
+                        </li>
+                        <li>
+                            Collects a lot of your personal information (ie. location, name, browsing history, audio data, etc.) and claims to "personalize your experience", while it's just to make a quick buck (<a href="Screenshot_29.png">a bit from their privacy policy</a>)
+                        </li>
+                        <li>
+                            Scans your emails (if you use Gmail of course) to "personalize" ads
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p>I've of course not mentioned everything they collect, because if I would I'd be sitting here writing this for literal days. You're free to <a href="https://github.com/zenmaster11/do-we-give-privacy-yet/pulls">open a P(ull)R(equest)</a> or <a href="https://github.com/zenmaster11/do-we-give-privacy-yet/issues/new">open an issue</a> if you'd wish to add or correct something.</p>
     </div>
 </body>
 </html>
